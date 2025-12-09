@@ -1,0 +1,52 @@
+/.venv/
+
+# Python bytecode / cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+.env
+.env.*
+*.env
+
+# Python tooling
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# VSCode / IDE
+.vscode/
+.idea/
+*.swp
+
+# Node / Next.js (web/)
+/web/node_modules/
+/web/.next/
+/web/.turbo/
+/web/.vercel/
+/web/.eslintcache
+/web/.env.local
+/web/.env.development.local
+/web/.env.test.local
+/web/.env.production.local
+
+# Build & dist
+/dist/
+build/
+*.egg-info/
+
+# Data & runtime outputs
+/data/exports/
+/data/test_outputs/
+/data/debug/
+
+# Logs
+logs/
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
